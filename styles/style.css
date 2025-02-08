@@ -49,3 +49,44 @@ header h1{
     font-weight: 700;
     margin-bottom: 48px;
 }
+/* party section styles */
+.party-section{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.party-title{
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    width: 642px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 697px;
+    margin-bottom: 48px;
+}
+.party-button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.party-content{
+    margin-left: 125px;
+}
+.party-img{
+    margin-right: 145px;
+}
