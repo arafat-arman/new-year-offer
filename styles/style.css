@@ -90,3 +90,38 @@ header h1{
 .party-img{
     margin-right: 145px;
 }
+/* joining section */
+.joining-section{
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto 120px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.joining-title{
+    margin-top: 0;
+}
+.joining-red{
+    color: #F00;
+}
+.joinnow-btn{
+    padding: 16px 32px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: #F00;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 48px;
+}
