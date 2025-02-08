@@ -1,0 +1,51 @@
+
+/* header styles */
+header{
+    background:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url(../images/Banner\ Image.png);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    /* gap: 15px; */
+}
+header h3{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+header h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+} 
+/* categories styles */
+.categories-section{
+    text-align: center;
+}
+.categories-title{
+    color: #F00;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+.categories-subtitle{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.categories-subtitle-ii{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
