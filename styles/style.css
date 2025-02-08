@@ -125,3 +125,65 @@ header h1{
     text-align: center;
     margin-top: 48px;
 }
+/* coming soon section */
+.coming-soon{
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 120px;
+
+}
+.comingsoon-1st{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* height: 100%;
+    justify-content: space-evenly; */
+}
+.comingsoon-1st-subtitle{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.comingsoon-1st-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+.comingsoon-1st-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    width: 393px;
+}
+.comingsoon-2nd-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+.comingsoon-2nd-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    width: 276px;
+}
+.comingsoon-2nd-img{
+    width: 140px;
+    height: 140px;
+}
+.comingsoon-img{
+    border-radius: 50%;
+border: 15px solid #F00;
+padding: 25px;
+}
+.comingsoon-2nd-img{
+    margin-top: 48px;
+}
