@@ -181,9 +181,67 @@ header h1{
 }
 .comingsoon-img{
     border-radius: 50%;
-border: 15px solid #F00;
-padding: 25px;
+    border: 15px solid #F00;
+    padding: 25px;
 }
 .comingsoon-2nd-img{
     margin-top: 48px;
+}
+/* holidays section */
+.holidays{
+    width: 1320px;
+    margin: 0 auto 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.holidays-subtitle{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.holydays-title{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+}
+.holydays-title span{
+    color: #F00;
+}
+.holydays-description{
+    width: 1320px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.holydays-img1{
+    position: absolute;
+    top: 3775px;
+    left: 13%;
+    width: 422px;
+    height: 360px;
+}
+.holydays-img2{
+    width: 207px;
+    height: 207px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    
+}
+.holydays-img3{
+    position: absolute;
+}
+.holydays-img1-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
 }
