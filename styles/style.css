@@ -10,7 +10,7 @@ header{
     flex-direction: column;
     width: 1320px;
     height: 600px;
-    margin: auto;
+    margin: 50px auto 0;
     /* gap: 15px; */
 }
 header h3{
@@ -321,4 +321,61 @@ header h1{
     background: #F00;
     padding: 24px 56px;
     border: none;
+  }
+  /* footer styles */
+  footer{
+    background: #070211;
+    margin: 0;
+  }
+  .footer-section{
+    width: 1320px;
+    margin: 120px auto 0;
+    padding: 120px 0;
+  }
+  .footer-1st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-adress{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 375px;
+    margin: 0;
+  }
+  .footer-number{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+  }
+  .footer-site{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+  }
+  footer hr{
+    margin: 50px 0;
+    background: rgba(255, 255, 255, 0.15);
+  }
+  .footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 120px; */
+  }
+  .copyright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
   }
